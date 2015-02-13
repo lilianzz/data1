@@ -144,8 +144,8 @@ public class Finite {
         System.out.println("t5 remove 5 and 6 should be 1 2 3 7 8: "+t5.remove(5).remove(6));
         System.out.println("Is 9 a member of t5? should be false: "+t5.member(9));        
         System.out.println("Is 3 a member of t5? should be true: "+t5.member(3));
-        System.out.println("unoin of t3 and t6 should be 3 6: ." +t3.union(t6));
-        System.out.println("unoin of t3 and bot should be 1 2 3: ." +t3.union(bot));        
+        System.out.println("union of t3 and t6 should be 3 6: ." +t3.union(t6));
+        System.out.println("union of t3 and bot should be 1 2 3: ." +t3.union(bot));        
         System.out.println("union of t6 and t2 should be 1 2 3 6: "+ t6.union(t2));
         System.out.println("intersection of t5 after removing 6 and t7 should be 7 8: "+t5.remove(6).inter(t7));
         System.out.println("intersection of t5 and bot should be nothing: "+t5.inter(bot));
